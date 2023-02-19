@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.stringstore.StringStoreControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-02-19T19:10:10" hostname="REVISION-PC" time="0.368">
+  <properties/>
+  <testcase name="stringStorePostNotCorrectStringLength()" classname="com.example.stringstore.StringStoreControllerTest" time="0.345"/>
+  <testcase name="stringStorePostNotCorrectString()" classname="com.example.stringstore.StringStoreControllerTest" time="0.004"/>
+  <testcase name="stringStoreGetEmptyList()" classname="com.example.stringstore.StringStoreControllerTest" time="0.008"/>
+  <testcase name="stringStorePostWorksCorrectly()" classname="com.example.stringstore.StringStoreControllerTest" time="0.003"/>
+  <testcase name="stringStorePostCantAddDuplicate()" classname="com.example.stringstore.StringStoreControllerTest" time="0.003"/>
+  <system-out><![CDATA[20:10:09.683 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [StringStoreControllerTest]: using SpringBootContextLoader
+20:10:09.687 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.stringstore.StringStoreControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:10:09.713 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [StringStoreControllerTest]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+20:10:09.792 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+20:10:09.793 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+20:10:09.795 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [StringStoreControllerTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+20:10:09.796 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [StringStoreControllerTest], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.2)
+
+2023-02-19T20:10:10.008+01:00  INFO 10960 --- [    Test worker] c.e.s.StringStoreControllerTest          : Starting StringStoreControllerTest using Java 17.0.3.1 with PID 10960 (started by Csutee in C:\Users\Csutee\IdeaProjects\StringStore)
+2023-02-19T20:10:10.010+01:00  INFO 10960 --- [    Test worker] c.e.s.StringStoreControllerTest          : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T20:10:10.222+01:00  INFO 10960 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-02-19T20:10:10.222+01:00  INFO 10960 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-02-19T20:10:10.315+01:00  INFO 10960 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 92 ms
+2023-02-19T20:10:10.342+01:00  INFO 10960 --- [    Test worker] c.e.s.StringStoreControllerTest          : Started StringStoreControllerTest in 0.515 seconds (process running for 1.28)
+0
+gnirtstzset
+gnirtstzset
+gevozstzset
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
